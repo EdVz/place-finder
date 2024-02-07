@@ -6,7 +6,7 @@ import axios from "axios";
 import { Place } from "../(home)/page";
 import { useToast } from "@/components/ui/use-toast";
 import { useRouter } from "next/navigation";
-import ClipLoader from 'react-spinners/Cliploader';
+import ClipLoader from 'react-spinners/ClipLoader';
 
 export default function AllPlaces({ searchParams }: { searchParams: { name: string } }) {
 
