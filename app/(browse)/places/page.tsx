@@ -65,7 +65,7 @@ export default function AllPlaces({ searchParams }: { searchParams: { name: stri
                             ))
                         ) : (
                             <h3 className="text-xl mt-6">
-                                No matches found for '{searchParams.name}'.
+                                No matches found for &apos;{searchParams.name}&apos;.
                             </h3>
                         )
                     )
